@@ -85,6 +85,12 @@ io.on('connection',(socket)=>{
 });
 
 
+
+
+
+
+
+
 app.get('/api' ,(req,res)=>{ 
 res.send("sayfaya hoşgeldiniz")
 
