@@ -2,6 +2,7 @@ const express = require('express');
 // const { get } = require('mongoose');
 const app = express();
 const router = require('./router47');
+const {connect}=require('./database')
 const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
